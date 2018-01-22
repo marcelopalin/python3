@@ -22,7 +22,7 @@ import sys
 try:
     import platform
     import os
-    from typing import Dict, Iterator, List
+    from typing import Dict
 except Exception as e:
     exc_type, exc_value, exc_traceback = sys.exc_info()
     print("#" * 80)
